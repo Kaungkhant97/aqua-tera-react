@@ -12,7 +12,7 @@ class App extends Component {
                 <div className="row">
                     {
                         Array.from(Array(8)).map((i, index) => {
-                            return <div className="col-sm-6 col-lg-3"><Item/></div>
+                            return <div className="col-sm-6 col-lg-3 margin-bottom"><Item/></div>
                         })
                     }
 

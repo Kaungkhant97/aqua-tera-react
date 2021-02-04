@@ -18,7 +18,7 @@ class Item extends Component {
     render() {
         return (
             <div className="card">
-                <img src={this.state.url} className="card-img-top" alt="..."/>
+                <img src={this.state.url} width="96" height="400" className="card-img-top" alt="..."/>
                 {/*<img src={this.state.dog.url}></img>*/}
                 {/*<button onClick={() => this.loadData()}>Load</button>*/}
                 <button type="button" className="btn btn-primary" onClick={() => this.loadData()}>Reload
