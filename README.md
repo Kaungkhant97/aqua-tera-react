@@ -20,7 +20,7 @@ Start the application
 ```bash
 $ npm start
 ```
-##How to use
+## How to use
 The page is shown with cute dog images at the start of the page being loaded
 - You can reload images individually by clicking the individual reload button under each dog image 
 - You can reload all images by clicking reload all button
