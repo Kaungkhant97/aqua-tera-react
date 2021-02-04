@@ -8,7 +8,10 @@ class App extends Component {
 
     render() {
         return (
+
             <div className="container">
+                <div className="row-cols-sm-1 row-cols-lg-1"> <h1 className="align-content-center">Cute Dog Pics</h1></div>
+
                 <div className="row">
                     {
                         Array.from(Array(8)).map((i, index) => {
